@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+
+}
+
+.container {
+    display: flex;
+
+}
+
+/* Navigation Section */
+.navmenu {
+    min-height: 69px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    opacity: 0.9;
+    background-color: black;
+    }
+
+.menu {
+    justify-content: space-between;
+    align-items: center;
+}
+#menu-list{
+    display: flex;
+    margin-top: 10px;
+   }
+
+.menu-link{
+    margin-right: 15px;
+    color: seashell;
+    padding: 5px;
+}
+
+.menu-link:hover{
+    color:red;
+}
+
+#logo {
+    width: auto;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* Mission Section */
+
+.mission{
+    background: no-repeat url(.//images/img-mission-background.jpg);
+    background-position: center;
+    height: 700px;
+    width: auto; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-flow:wrap;
+    
+}
+
+.statement {
+    background-color: black;
+    flex-direction:column;
+    min-height: 100px;
+    max-width: 1200px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+/* Tea Section */
+.features{
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.happening{
+     max-width: 1000px;
+     text-align: center;
+     margin-bottom: 10px;
+    }
+
+.tea-month{
+    max-width: 1000px;
+    flex-flow: wrap;
+    justify-content: center;
+}
+    
+.tea-month img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+figcaption{
+    margin-top:10px;
+    text-align: center;
+}
+
+/* Location Section */
+.background{
+    background-image: url(.//images/img-locations-background.jpg);
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    max-width: 1200px;
+    background-position: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.branch{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-flow:wrap;
+    margin-top: 15px;
+}
+
+.adress{
+    flex-direction: column;
+    margin-right: 40px;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 1;
+}
+
+/* Footer Section */
+.contact {
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.copyright{
+    margin-left: 20px;
+    text-align: left;
+}
+
